@@ -10,7 +10,14 @@
 		B3C8CEFF24A4C0D1000FDAD7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C8CEFE24A4C0D1000FDAD7 /* AppDelegate.swift */; };
 		B3C8CF0824A4C0D3000FDAD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3C8CF0724A4C0D3000FDAD7 /* Assets.xcassets */; };
 		B3C8CF0B24A4C0D3000FDAD7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3C8CF0924A4C0D3000FDAD7 /* LaunchScreen.storyboard */; };
-		B3C8CF1424A4C1E9000FDAD7 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C8CF1324A4C1E9000FDAD7 /* RootViewController.swift */; };
+		B3C8CF1624A4C43C000FDAD7 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C8CF1524A4C43C000FDAD7 /* MainTabBarController.swift */; };
+		B3C8CF1924A4C55C000FDAD7 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C8CF1824A4C55C000FDAD7 /* Coordinator.swift */; };
+		B3C8CF1D24A4C868000FDAD7 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C8CF1C24A4C868000FDAD7 /* MapViewController.swift */; };
+		B3C8CF1F24A4C874000FDAD7 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C8CF1E24A4C874000FDAD7 /* MapViewModel.swift */; };
+		B3C8CF2224A4C9CA000FDAD7 /* MapCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C8CF2124A4C9CA000FDAD7 /* MapCoordinator.swift */; };
+		B3C8CF2924A4CF4A000FDAD7 /* CellarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C8CF2824A4CF4A000FDAD7 /* CellarViewController.swift */; };
+		B3C8CF2B24A4CF6F000FDAD7 /* CellarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C8CF2A24A4CF6F000FDAD7 /* CellarViewModel.swift */; };
+		B3C8CF2D24A4CFB2000FDAD7 /* CellarCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C8CF2C24A4CFB2000FDAD7 /* CellarCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,7 +26,14 @@
 		B3C8CF0724A4C0D3000FDAD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3C8CF0A24A4C0D3000FDAD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B3C8CF0C24A4C0D3000FDAD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = WhereToBuyWine/Helpers/Info.plist; sourceTree = SOURCE_ROOT; };
-		B3C8CF1324A4C1E9000FDAD7 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		B3C8CF1524A4C43C000FDAD7 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		B3C8CF1824A4C55C000FDAD7 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		B3C8CF1C24A4C868000FDAD7 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		B3C8CF1E24A4C874000FDAD7 /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
+		B3C8CF2124A4C9CA000FDAD7 /* MapCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapCoordinator.swift; sourceTree = "<group>"; };
+		B3C8CF2824A4CF4A000FDAD7 /* CellarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellarViewController.swift; sourceTree = "<group>"; };
+		B3C8CF2A24A4CF6F000FDAD7 /* CellarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellarViewModel.swift; sourceTree = "<group>"; };
+		B3C8CF2C24A4CFB2000FDAD7 /* CellarCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellarCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +51,7 @@
 			isa = PBXGroup;
 			children = (
 				B3C8CEFD24A4C0D1000FDAD7 /* WhereToBuyWine */,
+				B3C8CEFE24A4C0D1000FDAD7 /* AppDelegate.swift */,
 				B3C8CEFC24A4C0D1000FDAD7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,9 +67,13 @@
 		B3C8CEFD24A4C0D1000FDAD7 /* WhereToBuyWine */ = {
 			isa = PBXGroup;
 			children = (
-				B3C8CF1324A4C1E9000FDAD7 /* RootViewController.swift */,
-				B3C8CEFE24A4C0D1000FDAD7 /* AppDelegate.swift */,
+				B3C8CF1524A4C43C000FDAD7 /* MainTabBarController.swift */,
+				B3C8CF2024A4C87D000FDAD7 /* Map */,
+				B3C8CF2724A4CF2C000FDAD7 /* Cellar */,
+				B3C8CF1724A4C547000FDAD7 /* Coordinator */,
+				B3C8CF2524A4CCB7000FDAD7 /* Extensions */,
 				B3C8CF1224A4C196000FDAD7 /* Helpers */,
+				B3C8CF2624A4CD50000FDAD7 /* Protocols */,
 			);
 			path = WhereToBuyWine;
 			sourceTree = "<group>";
@@ -67,6 +86,48 @@
 				B3C8CF0C24A4C0D3000FDAD7 /* Info.plist */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		B3C8CF1724A4C547000FDAD7 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				B3C8CF2124A4C9CA000FDAD7 /* MapCoordinator.swift */,
+				B3C8CF2C24A4CFB2000FDAD7 /* CellarCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		B3C8CF2024A4C87D000FDAD7 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				B3C8CF1C24A4C868000FDAD7 /* MapViewController.swift */,
+				B3C8CF1E24A4C874000FDAD7 /* MapViewModel.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		B3C8CF2524A4CCB7000FDAD7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B3C8CF2624A4CD50000FDAD7 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				B3C8CF1824A4C55C000FDAD7 /* Coordinator.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		B3C8CF2724A4CF2C000FDAD7 /* Cellar */ = {
+			isa = PBXGroup;
+			children = (
+				B3C8CF2824A4CF4A000FDAD7 /* CellarViewController.swift */,
+				B3C8CF2A24A4CF6F000FDAD7 /* CellarViewModel.swift */,
+			);
+			path = Cellar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +200,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3C8CF1424A4C1E9000FDAD7 /* RootViewController.swift in Sources */,
 				B3C8CEFF24A4C0D1000FDAD7 /* AppDelegate.swift in Sources */,
+				B3C8CF2224A4C9CA000FDAD7 /* MapCoordinator.swift in Sources */,
+				B3C8CF1624A4C43C000FDAD7 /* MainTabBarController.swift in Sources */,
+				B3C8CF2B24A4CF6F000FDAD7 /* CellarViewModel.swift in Sources */,
+				B3C8CF2D24A4CFB2000FDAD7 /* CellarCoordinator.swift in Sources */,
+				B3C8CF1D24A4C868000FDAD7 /* MapViewController.swift in Sources */,
+				B3C8CF1924A4C55C000FDAD7 /* Coordinator.swift in Sources */,
+				B3C8CF1F24A4C874000FDAD7 /* MapViewModel.swift in Sources */,
+				B3C8CF2924A4CF4A000FDAD7 /* CellarViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
