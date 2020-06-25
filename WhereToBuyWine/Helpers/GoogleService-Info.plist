@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>303893783783-2buv4mf8e10i1v04b9kis8t28a4674dj.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.303893783783-2buv4mf8e10i1v04b9kis8t28a4674dj</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBkwSTFKKT37xEbiCRjTm7IG3KoSJZHl10</string>
+	<key>GCM_SENDER_ID</key>
+	<string>303893783783</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.MaxKhizhniakov.WhereToBuyWine</string>
+	<key>PROJECT_ID</key>
+	<string>wheretobuywine</string>
+	<key>STORAGE_BUCKET</key>
+	<string>wheretobuywine.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:303893783783:ios:660d55ba5a3216c8b6ee42</string>
+	<key>DATABASE_URL</key>
+	<string>https://wheretobuywine.firebaseio.com</string>
+</dict>
+</plist>

@@ -7,15 +7,29 @@
 //
 
 import UIKit
-// AIzaSyBFL3IR7yY3kYEKDi8ub8eEFb2uEcE8Zkc
+import GoogleMaps
 
 class MapViewController: UIViewController {
-    // MARK: - Properties
+    // MARK: - Main Properties
     private var viewModel: MapViewModel?
     weak var coordinator: MapCoordinator?
-    
+
     // MARK: - UI
+    lazy var mapView: GMSMapView = {
+        let mapView = GMSMapView()
+        mapView.translatesAutoresizingMaskIntoConstraints = false
+        mapView.isMyLocationEnabled = true
+        mapView.settings.myLocationButton = true
+        
+        return mapView
+    }()
     
+    lazy var infoMarker: GMSMarker = {
+        let marker = GMSMarker()
+        marker.icon = .checkmark
+        marker.appearAnimation = .pop
+        return marker
+    }()
     
     // MARK: - Initializers
     init(viewModel: MapViewModel) {
@@ -29,11 +43,24 @@ class MapViewController: UIViewController {
     // MARK: - Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.backgroundColor = .green
+        // Delegate
+        viewModel?.locationManager.delegate = self
+        mapView.delegate = self
+        
+        // SetupView
+        setupView()
+        viewModel?.locationRequest()
     }
     
     // MARK: - Methods
     private func setupView() {
+        self.view.addSubview(mapView)
         
+        NSLayoutConstraint.activate([
+            mapView.topAnchor.constraint(equalTo: self.view.topAnchor),
+            mapView.leadingAnchor.constraint(equalTo: self.view.leadingAnchor),
+            mapView.trailingAnchor.constraint(equalTo: self.view.trailingAnchor),
+            mapView.bottomAnchor.constraint(equalTo: self.view.bottomAnchor)
+        ])
     }
 }

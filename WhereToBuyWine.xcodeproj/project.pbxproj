@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7262D30A02841F7972468E69 /* Pods_WhereToBuyWine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4039B87B2654EADB38FC5849 /* Pods_WhereToBuyWine.framework */; };
 		B3C8CEFF24A4C0D1000FDAD7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C8CEFE24A4C0D1000FDAD7 /* AppDelegate.swift */; };
 		B3C8CF0824A4C0D3000FDAD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3C8CF0724A4C0D3000FDAD7 /* Assets.xcassets */; };
 		B3C8CF0B24A4C0D3000FDAD7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3C8CF0924A4C0D3000FDAD7 /* LaunchScreen.storyboard */; };
@@ -18,9 +19,13 @@
 		B3C8CF2924A4CF4A000FDAD7 /* CellarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C8CF2824A4CF4A000FDAD7 /* CellarViewController.swift */; };
 		B3C8CF2B24A4CF6F000FDAD7 /* CellarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C8CF2A24A4CF6F000FDAD7 /* CellarViewModel.swift */; };
 		B3C8CF2D24A4CFB2000FDAD7 /* CellarCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C8CF2C24A4CFB2000FDAD7 /* CellarCoordinator.swift */; };
+		B3C8CF2F24A4E079000FDAD7 /* Ex+MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C8CF2E24A4E079000FDAD7 /* Ex+MapViewController.swift */; };
+		B3C8CF3324A511CD000FDAD7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B3C8CF3224A511CD000FDAD7 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4039B87B2654EADB38FC5849 /* Pods_WhereToBuyWine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WhereToBuyWine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C7AF08F33125697E1683700 /* Pods-WhereToBuyWine.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhereToBuyWine.debug.xcconfig"; path = "Target Support Files/Pods-WhereToBuyWine/Pods-WhereToBuyWine.debug.xcconfig"; sourceTree = "<group>"; };
 		B3C8CEFB24A4C0D1000FDAD7 /* WhereToBuyWine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhereToBuyWine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3C8CEFE24A4C0D1000FDAD7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B3C8CF0724A4C0D3000FDAD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -34,6 +39,9 @@
 		B3C8CF2824A4CF4A000FDAD7 /* CellarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellarViewController.swift; sourceTree = "<group>"; };
 		B3C8CF2A24A4CF6F000FDAD7 /* CellarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellarViewModel.swift; sourceTree = "<group>"; };
 		B3C8CF2C24A4CFB2000FDAD7 /* CellarCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellarCoordinator.swift; sourceTree = "<group>"; };
+		B3C8CF2E24A4E079000FDAD7 /* Ex+MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ex+MapViewController.swift"; sourceTree = "<group>"; };
+		B3C8CF3224A511CD000FDAD7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DAE1F766FE800046B7720472 /* Pods-WhereToBuyWine.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhereToBuyWine.release.xcconfig"; path = "Target Support Files/Pods-WhereToBuyWine/Pods-WhereToBuyWine.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7262D30A02841F7972468E69 /* Pods_WhereToBuyWine.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,8 +60,9 @@
 			isa = PBXGroup;
 			children = (
 				B3C8CEFD24A4C0D1000FDAD7 /* WhereToBuyWine */,
-				B3C8CEFE24A4C0D1000FDAD7 /* AppDelegate.swift */,
 				B3C8CEFC24A4C0D1000FDAD7 /* Products */,
+				DAE86CEA0ECC8BA6ECCD14BF /* Pods */,
+				F38451871F1205DBADE5DF97 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +77,7 @@
 		B3C8CEFD24A4C0D1000FDAD7 /* WhereToBuyWine */ = {
 			isa = PBXGroup;
 			children = (
+				B3C8CEFE24A4C0D1000FDAD7 /* AppDelegate.swift */,
 				B3C8CF1524A4C43C000FDAD7 /* MainTabBarController.swift */,
 				B3C8CF2024A4C87D000FDAD7 /* Map */,
 				B3C8CF2724A4CF2C000FDAD7 /* Cellar */,
@@ -84,6 +95,7 @@
 				B3C8CF0724A4C0D3000FDAD7 /* Assets.xcassets */,
 				B3C8CF0924A4C0D3000FDAD7 /* LaunchScreen.storyboard */,
 				B3C8CF0C24A4C0D3000FDAD7 /* Info.plist */,
+				B3C8CF3224A511CD000FDAD7 /* GoogleService-Info.plist */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -109,6 +121,7 @@
 		B3C8CF2524A4CCB7000FDAD7 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				B3C8CF2E24A4E079000FDAD7 /* Ex+MapViewController.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -130,6 +143,23 @@
 			path = Cellar;
 			sourceTree = "<group>";
 		};
+		DAE86CEA0ECC8BA6ECCD14BF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9C7AF08F33125697E1683700 /* Pods-WhereToBuyWine.debug.xcconfig */,
+				DAE1F766FE800046B7720472 /* Pods-WhereToBuyWine.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F38451871F1205DBADE5DF97 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4039B87B2654EADB38FC5849 /* Pods_WhereToBuyWine.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,9 +167,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B3C8CF0F24A4C0D3000FDAD7 /* Build configuration list for PBXNativeTarget "WhereToBuyWine" */;
 			buildPhases = (
+				5CB570E07920618560A66813 /* [CP] Check Pods Manifest.lock */,
 				B3C8CEF724A4C0D1000FDAD7 /* Sources */,
 				B3C8CEF824A4C0D1000FDAD7 /* Frameworks */,
 				B3C8CEF924A4C0D1000FDAD7 /* Resources */,
+				D4D953DF5E7D11C977FDBE90 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -190,10 +222,53 @@
 			files = (
 				B3C8CF0B24A4C0D3000FDAD7 /* LaunchScreen.storyboard in Resources */,
 				B3C8CF0824A4C0D3000FDAD7 /* Assets.xcassets in Resources */,
+				B3C8CF3324A511CD000FDAD7 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5CB570E07920618560A66813 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WhereToBuyWine-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4D953DF5E7D11C977FDBE90 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WhereToBuyWine/Pods-WhereToBuyWine-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WhereToBuyWine/Pods-WhereToBuyWine-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WhereToBuyWine/Pods-WhereToBuyWine-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B3C8CEF724A4C0D1000FDAD7 /* Sources */ = {
@@ -202,6 +277,7 @@
 			files = (
 				B3C8CEFF24A4C0D1000FDAD7 /* AppDelegate.swift in Sources */,
 				B3C8CF2224A4C9CA000FDAD7 /* MapCoordinator.swift in Sources */,
+				B3C8CF2F24A4E079000FDAD7 /* Ex+MapViewController.swift in Sources */,
 				B3C8CF1624A4C43C000FDAD7 /* MainTabBarController.swift in Sources */,
 				B3C8CF2B24A4CF6F000FDAD7 /* CellarViewModel.swift in Sources */,
 				B3C8CF2D24A4CFB2000FDAD7 /* CellarCoordinator.swift in Sources */,
@@ -342,12 +418,13 @@
 		};
 		B3C8CF1024A4C0D3000FDAD7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C7AF08F33125697E1683700 /* Pods-WhereToBuyWine.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XJQKZ9Q6B2;
 				INFOPLIST_FILE = WhereToBuyWine/Helpers/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -361,12 +438,13 @@
 		};
 		B3C8CF1124A4C0D3000FDAD7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAE1F766FE800046B7720472 /* Pods-WhereToBuyWine.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XJQKZ9Q6B2;
 				INFOPLIST_FILE = WhereToBuyWine/Helpers/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

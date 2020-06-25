@@ -7,7 +7,19 @@
 //
 
 import Foundation
+import GoogleMaps
 
 class MapViewModel {
     
+    // MARK: - Properties
+    let locationManager = CLLocationManager()
+
+    // MARK: - Methods
+    func locationRequest() {
+        if CLLocationManager.locationServicesEnabled() {
+            locationManager.requestLocation()
+        } else {
+            locationManager.requestWhenInUseAuthorization()
+        }
+    }
 }
