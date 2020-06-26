@@ -16,7 +16,7 @@ class CellarCoordinator: Coordinator {
     func start() {
         let cellarViewModel = CellarViewModel()
         let cellarViewController = CellarViewController(viewModel: cellarViewModel)
-        cellarViewController.tabBarItem = UITabBarItem(tabBarSystemItem: .topRated, tag: 1)
+        cellarViewController.tabBarItem = UITabBarItem(tabBarSystemItem: .topRated, tag: 3)
         cellarViewController.coordinator = self
         navigationController.pushViewController(cellarViewController, animated: true)
     }

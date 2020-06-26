@@ -31,14 +31,16 @@ extension MapViewController: CLLocationManagerDelegate {
 
 extension MapViewController: GMSMapViewDelegate {
     
-    func mapView(_ mapView: GMSMapView, didTapPOIWithPlaceID placeID: String, name: String, location: CLLocationCoordinate2D) {
-        infoMarker.position = location
-        infoMarker.title = name
-        infoMarker.opacity = 0
-        infoMarker.infoWindowAnchor.y = 1
-        infoMarker.map = mapView
-        mapView.selectedMarker = infoMarker
+//    func mapView(_ mapView: GMSMapView, didTapPOIWithPlaceID placeID: String, name: String, location: CLLocationCoordinate2D) {
+//        infoMarker.position = location
+//        infoMarker.title = name
+//        infoMarker.opacity = 0
+//        infoMarker.infoWindowAnchor.y = 1
+//        infoMarker.map = mapView
+//        mapView.selectedMarker = infoMarker
+//    }
+    func mapView(_ mapView: GMSMapView, didTapInfoWindowOf marker: GMSMarker) {
+        coordinator?.openShop()
     }
-    
     
 }

@@ -24,11 +24,11 @@ class MapViewController: UIViewController {
         return mapView
     }()
     
-    lazy var infoMarker: GMSMarker = {
-        let marker = GMSMarker()
-        marker.icon = .checkmark
-        marker.appearAnimation = .pop
-        return marker
+    lazy var toTableOfShopsNaviagationButton: UIBarButtonItem = {
+        let button = UIBarButtonItem(barButtonSystemItem: .bookmarks,
+                                     target: self,
+                                     action: #selector(toTableOfShops))
+        return button
     }()
     
     // MARK: - Initializers
@@ -50,11 +50,17 @@ class MapViewController: UIViewController {
         // SetupView
         setupView()
         viewModel?.locationRequest()
+        
+        // Add markers on map
+        viewModel?.addMapMarkers()
+        addMarkersOnMap(mapMarkers: viewModel!.mapMarkers)
     }
     
     // MARK: - Methods
     private func setupView() {
         self.view.addSubview(mapView)
+        
+        self.navigationItem.rightBarButtonItem = toTableOfShopsNaviagationButton
         
         NSLayoutConstraint.activate([
             mapView.topAnchor.constraint(equalTo: self.view.topAnchor),
@@ -62,5 +68,15 @@ class MapViewController: UIViewController {
             mapView.trailingAnchor.constraint(equalTo: self.view.trailingAnchor),
             mapView.bottomAnchor.constraint(equalTo: self.view.bottomAnchor)
         ])
+    }
+    
+    private func addMarkersOnMap(mapMarkers: [GMSMarker]) {
+        mapMarkers.forEach { $0.map = mapView }
+    }
+    
+    //MARK: - @objc methods
+    @objc
+    private func toTableOfShops() {
+        coordinator?.openTableOfShops()
     }
 }

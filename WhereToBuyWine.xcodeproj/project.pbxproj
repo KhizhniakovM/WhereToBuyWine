@@ -21,6 +21,23 @@
 		B3C8CF2D24A4CFB2000FDAD7 /* CellarCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C8CF2C24A4CFB2000FDAD7 /* CellarCoordinator.swift */; };
 		B3C8CF2F24A4E079000FDAD7 /* Ex+MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C8CF2E24A4E079000FDAD7 /* Ex+MapViewController.swift */; };
 		B3C8CF3324A511CD000FDAD7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B3C8CF3224A511CD000FDAD7 /* GoogleService-Info.plist */; };
+		B3C8CF3524A5F991000FDAD7 /* StudyCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C8CF3424A5F991000FDAD7 /* StudyCoordinator.swift */; };
+		B3C8CF3824A5FA2E000FDAD7 /* StudyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C8CF3724A5FA2E000FDAD7 /* StudyViewModel.swift */; };
+		B3C8CF3A24A5FA4E000FDAD7 /* StudyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C8CF3924A5FA4E000FDAD7 /* StudyViewController.swift */; };
+		B3C8CF3C24A5FE45000FDAD7 /* ActionCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C8CF3B24A5FE45000FDAD7 /* ActionCoordinator.swift */; };
+		B3C8CF3E24A5FE7F000FDAD7 /* ProfileCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C8CF3D24A5FE7F000FDAD7 /* ProfileCoordinator.swift */; };
+		B3C8CF4224A5FFB4000FDAD7 /* ActionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C8CF4124A5FFB4000FDAD7 /* ActionViewModel.swift */; };
+		B3C8CF4424A5FFCD000FDAD7 /* ActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C8CF4324A5FFCD000FDAD7 /* ActionViewController.swift */; };
+		B3C8CF4624A5FFDD000FDAD7 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C8CF4524A5FFDD000FDAD7 /* ProfileViewModel.swift */; };
+		B3C8CF4824A60003000FDAD7 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C8CF4724A60003000FDAD7 /* ProfileViewController.swift */; };
+		B3C8CF4B24A6015C000FDAD7 /* ShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C8CF4A24A6015C000FDAD7 /* ShopViewController.swift */; };
+		B3C8CF4D24A60169000FDAD7 /* ShopViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C8CF4C24A60169000FDAD7 /* ShopViewModel.swift */; };
+		B3C8CF4F24A6040C000FDAD7 /* MarkerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C8CF4E24A6040C000FDAD7 /* MarkerModel.swift */; };
+		B3C8CF5A24A6177B000FDAD7 /* TableOfShopsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C8CF5924A6177B000FDAD7 /* TableOfShopsViewController.swift */; };
+		B3C8CF5C24A61799000FDAD7 /* TableOfShopsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C8CF5B24A61799000FDAD7 /* TableOfShopsViewModel.swift */; };
+		B3C8CF5E24A62017000FDAD7 /* Ex+MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C8CF5D24A62017000FDAD7 /* Ex+MainTabBarController.swift */; };
+		B3C8CF6024A62932000FDAD7 /* Ex+TableOfShopsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C8CF5F24A62932000FDAD7 /* Ex+TableOfShopsViewController.swift */; };
+		B3C8CF6224A629C9000FDAD7 /* TableOfShopsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C8CF6124A629C9000FDAD7 /* TableOfShopsCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +58,23 @@
 		B3C8CF2C24A4CFB2000FDAD7 /* CellarCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellarCoordinator.swift; sourceTree = "<group>"; };
 		B3C8CF2E24A4E079000FDAD7 /* Ex+MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ex+MapViewController.swift"; sourceTree = "<group>"; };
 		B3C8CF3224A511CD000FDAD7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B3C8CF3424A5F991000FDAD7 /* StudyCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyCoordinator.swift; sourceTree = "<group>"; };
+		B3C8CF3724A5FA2E000FDAD7 /* StudyViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudyViewModel.swift; sourceTree = "<group>"; };
+		B3C8CF3924A5FA4E000FDAD7 /* StudyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyViewController.swift; sourceTree = "<group>"; };
+		B3C8CF3B24A5FE45000FDAD7 /* ActionCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionCoordinator.swift; sourceTree = "<group>"; };
+		B3C8CF3D24A5FE7F000FDAD7 /* ProfileCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCoordinator.swift; sourceTree = SOURCE_ROOT; };
+		B3C8CF4124A5FFB4000FDAD7 /* ActionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionViewModel.swift; sourceTree = "<group>"; };
+		B3C8CF4324A5FFCD000FDAD7 /* ActionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionViewController.swift; sourceTree = "<group>"; };
+		B3C8CF4524A5FFDD000FDAD7 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		B3C8CF4724A60003000FDAD7 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		B3C8CF4A24A6015C000FDAD7 /* ShopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopViewController.swift; sourceTree = "<group>"; };
+		B3C8CF4C24A60169000FDAD7 /* ShopViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopViewModel.swift; sourceTree = "<group>"; };
+		B3C8CF4E24A6040C000FDAD7 /* MarkerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkerModel.swift; sourceTree = "<group>"; };
+		B3C8CF5924A6177B000FDAD7 /* TableOfShopsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableOfShopsViewController.swift; sourceTree = "<group>"; };
+		B3C8CF5B24A61799000FDAD7 /* TableOfShopsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableOfShopsViewModel.swift; sourceTree = "<group>"; };
+		B3C8CF5D24A62017000FDAD7 /* Ex+MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ex+MainTabBarController.swift"; sourceTree = "<group>"; };
+		B3C8CF5F24A62932000FDAD7 /* Ex+TableOfShopsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ex+TableOfShopsViewController.swift"; sourceTree = "<group>"; };
+		B3C8CF6124A629C9000FDAD7 /* TableOfShopsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableOfShopsCollectionViewCell.swift; sourceTree = "<group>"; };
 		DAE1F766FE800046B7720472 /* Pods-WhereToBuyWine.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhereToBuyWine.release.xcconfig"; path = "Target Support Files/Pods-WhereToBuyWine/Pods-WhereToBuyWine.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -80,7 +114,10 @@
 				B3C8CEFE24A4C0D1000FDAD7 /* AppDelegate.swift */,
 				B3C8CF1524A4C43C000FDAD7 /* MainTabBarController.swift */,
 				B3C8CF2024A4C87D000FDAD7 /* Map */,
+				B3C8CF3624A5FA04000FDAD7 /* Study */,
+				B3C8CF4024A5FF93000FDAD7 /* Action */,
 				B3C8CF2724A4CF2C000FDAD7 /* Cellar */,
+				B3C8CF3F24A5FF81000FDAD7 /* Profile */,
 				B3C8CF1724A4C547000FDAD7 /* Coordinator */,
 				B3C8CF2524A4CCB7000FDAD7 /* Extensions */,
 				B3C8CF1224A4C196000FDAD7 /* Helpers */,
@@ -104,7 +141,10 @@
 			isa = PBXGroup;
 			children = (
 				B3C8CF2124A4C9CA000FDAD7 /* MapCoordinator.swift */,
+				B3C8CF3424A5F991000FDAD7 /* StudyCoordinator.swift */,
+				B3C8CF3B24A5FE45000FDAD7 /* ActionCoordinator.swift */,
 				B3C8CF2C24A4CFB2000FDAD7 /* CellarCoordinator.swift */,
+				B3C8CF3D24A5FE7F000FDAD7 /* ProfileCoordinator.swift */,
 			);
 			path = Coordinator;
 			sourceTree = "<group>";
@@ -112,8 +152,11 @@
 		B3C8CF2024A4C87D000FDAD7 /* Map */ = {
 			isa = PBXGroup;
 			children = (
-				B3C8CF1C24A4C868000FDAD7 /* MapViewController.swift */,
-				B3C8CF1E24A4C874000FDAD7 /* MapViewModel.swift */,
+				B3C8CF5024A60B6B000FDAD7 /* Model */,
+				B3C8CF5124A60B7A000FDAD7 /* View */,
+				B3C8CF5224A60B81000FDAD7 /* ViewModel */,
+				B3C8CF5824A61754000FDAD7 /* TableOfShops */,
+				B3C8CF4924A60137000FDAD7 /* Shop */,
 			);
 			path = Map;
 			sourceTree = "<group>";
@@ -122,6 +165,8 @@
 			isa = PBXGroup;
 			children = (
 				B3C8CF2E24A4E079000FDAD7 /* Ex+MapViewController.swift */,
+				B3C8CF5D24A62017000FDAD7 /* Ex+MainTabBarController.swift */,
+				B3C8CF5F24A62932000FDAD7 /* Ex+TableOfShopsViewController.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -141,6 +186,92 @@
 				B3C8CF2A24A4CF6F000FDAD7 /* CellarViewModel.swift */,
 			);
 			path = Cellar;
+			sourceTree = "<group>";
+		};
+		B3C8CF3624A5FA04000FDAD7 /* Study */ = {
+			isa = PBXGroup;
+			children = (
+				B3C8CF3924A5FA4E000FDAD7 /* StudyViewController.swift */,
+				B3C8CF3724A5FA2E000FDAD7 /* StudyViewModel.swift */,
+			);
+			path = Study;
+			sourceTree = "<group>";
+		};
+		B3C8CF3F24A5FF81000FDAD7 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				B3C8CF4724A60003000FDAD7 /* ProfileViewController.swift */,
+				B3C8CF4524A5FFDD000FDAD7 /* ProfileViewModel.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		B3C8CF4024A5FF93000FDAD7 /* Action */ = {
+			isa = PBXGroup;
+			children = (
+				B3C8CF4324A5FFCD000FDAD7 /* ActionViewController.swift */,
+				B3C8CF4124A5FFB4000FDAD7 /* ActionViewModel.swift */,
+			);
+			path = Action;
+			sourceTree = "<group>";
+		};
+		B3C8CF4924A60137000FDAD7 /* Shop */ = {
+			isa = PBXGroup;
+			children = (
+				B3C8CF5324A60BA4000FDAD7 /* View */,
+				B3C8CF5424A60BAC000FDAD7 /* ViewModel */,
+			);
+			path = Shop;
+			sourceTree = "<group>";
+		};
+		B3C8CF5024A60B6B000FDAD7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B3C8CF4E24A6040C000FDAD7 /* MarkerModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B3C8CF5124A60B7A000FDAD7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B3C8CF1C24A4C868000FDAD7 /* MapViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B3C8CF5224A60B81000FDAD7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B3C8CF1E24A4C874000FDAD7 /* MapViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B3C8CF5324A60BA4000FDAD7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B3C8CF4A24A6015C000FDAD7 /* ShopViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B3C8CF5424A60BAC000FDAD7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B3C8CF4C24A60169000FDAD7 /* ShopViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B3C8CF5824A61754000FDAD7 /* TableOfShops */ = {
+			isa = PBXGroup;
+			children = (
+				B3C8CF5924A6177B000FDAD7 /* TableOfShopsViewController.swift */,
+				B3C8CF5B24A61799000FDAD7 /* TableOfShopsViewModel.swift */,
+				B3C8CF6124A629C9000FDAD7 /* TableOfShopsCollectionViewCell.swift */,
+			);
+			path = TableOfShops;
 			sourceTree = "<group>";
 		};
 		DAE86CEA0ECC8BA6ECCD14BF /* Pods */ = {
@@ -275,16 +406,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3C8CF5A24A6177B000FDAD7 /* TableOfShopsViewController.swift in Sources */,
 				B3C8CEFF24A4C0D1000FDAD7 /* AppDelegate.swift in Sources */,
+				B3C8CF4424A5FFCD000FDAD7 /* ActionViewController.swift in Sources */,
 				B3C8CF2224A4C9CA000FDAD7 /* MapCoordinator.swift in Sources */,
 				B3C8CF2F24A4E079000FDAD7 /* Ex+MapViewController.swift in Sources */,
 				B3C8CF1624A4C43C000FDAD7 /* MainTabBarController.swift in Sources */,
+				B3C8CF3824A5FA2E000FDAD7 /* StudyViewModel.swift in Sources */,
+				B3C8CF6224A629C9000FDAD7 /* TableOfShopsCollectionViewCell.swift in Sources */,
+				B3C8CF3A24A5FA4E000FDAD7 /* StudyViewController.swift in Sources */,
+				B3C8CF5C24A61799000FDAD7 /* TableOfShopsViewModel.swift in Sources */,
+				B3C8CF3524A5F991000FDAD7 /* StudyCoordinator.swift in Sources */,
 				B3C8CF2B24A4CF6F000FDAD7 /* CellarViewModel.swift in Sources */,
+				B3C8CF4824A60003000FDAD7 /* ProfileViewController.swift in Sources */,
 				B3C8CF2D24A4CFB2000FDAD7 /* CellarCoordinator.swift in Sources */,
+				B3C8CF5E24A62017000FDAD7 /* Ex+MainTabBarController.swift in Sources */,
 				B3C8CF1D24A4C868000FDAD7 /* MapViewController.swift in Sources */,
+				B3C8CF4B24A6015C000FDAD7 /* ShopViewController.swift in Sources */,
+				B3C8CF4F24A6040C000FDAD7 /* MarkerModel.swift in Sources */,
+				B3C8CF4224A5FFB4000FDAD7 /* ActionViewModel.swift in Sources */,
+				B3C8CF4624A5FFDD000FDAD7 /* ProfileViewModel.swift in Sources */,
+				B3C8CF3C24A5FE45000FDAD7 /* ActionCoordinator.swift in Sources */,
 				B3C8CF1924A4C55C000FDAD7 /* Coordinator.swift in Sources */,
 				B3C8CF1F24A4C874000FDAD7 /* MapViewModel.swift in Sources */,
+				B3C8CF3E24A5FE7F000FDAD7 /* ProfileCoordinator.swift in Sources */,
+				B3C8CF6024A62932000FDAD7 /* Ex+TableOfShopsViewController.swift in Sources */,
 				B3C8CF2924A4CF4A000FDAD7 /* CellarViewController.swift in Sources */,
+				B3C8CF4D24A60169000FDAD7 /* ShopViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
