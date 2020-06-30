@@ -15,7 +15,6 @@ extension MainTabBarController: UITabBarControllerDelegate {
         
         let viewModel = ActionViewModel()
         let vc = ActionViewController(viewModel: viewModel)
-        
         self.present(vc, animated: true, completion: nil)
         return false
     }

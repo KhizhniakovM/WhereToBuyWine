@@ -6,6 +6,9 @@
 //  Copyright © 2020 Max Khizhniakov. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
-class ActionViewModel {}
+class ActionViewModel {
+    
+    
+}

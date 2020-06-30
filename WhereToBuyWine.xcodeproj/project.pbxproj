@@ -38,6 +38,8 @@
 		B3C8CF5E24A62017000FDAD7 /* Ex+MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C8CF5D24A62017000FDAD7 /* Ex+MainTabBarController.swift */; };
 		B3C8CF6024A62932000FDAD7 /* Ex+TableOfShopsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C8CF5F24A62932000FDAD7 /* Ex+TableOfShopsViewController.swift */; };
 		B3C8CF6224A629C9000FDAD7 /* TableOfShopsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C8CF6124A629C9000FDAD7 /* TableOfShopsCollectionViewCell.swift */; };
+		B3DFF0EF24A9F1D400F6936C /* WineModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3DFF0EE24A9F1D400F6936C /* WineModel.swift */; };
+		B3DFF0F124A9F60F00F6936C /* Ex+UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3DFF0F024A9F60F00F6936C /* Ex+UIImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -75,6 +77,8 @@
 		B3C8CF5D24A62017000FDAD7 /* Ex+MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ex+MainTabBarController.swift"; sourceTree = "<group>"; };
 		B3C8CF5F24A62932000FDAD7 /* Ex+TableOfShopsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ex+TableOfShopsViewController.swift"; sourceTree = "<group>"; };
 		B3C8CF6124A629C9000FDAD7 /* TableOfShopsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableOfShopsCollectionViewCell.swift; sourceTree = "<group>"; };
+		B3DFF0EE24A9F1D400F6936C /* WineModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WineModel.swift; sourceTree = "<group>"; };
+		B3DFF0F024A9F60F00F6936C /* Ex+UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ex+UIImageView.swift"; sourceTree = "<group>"; };
 		DAE1F766FE800046B7720472 /* Pods-WhereToBuyWine.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhereToBuyWine.release.xcconfig"; path = "Target Support Files/Pods-WhereToBuyWine/Pods-WhereToBuyWine.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -113,6 +117,7 @@
 			children = (
 				B3C8CEFE24A4C0D1000FDAD7 /* AppDelegate.swift */,
 				B3C8CF1524A4C43C000FDAD7 /* MainTabBarController.swift */,
+				B3DFF0EE24A9F1D400F6936C /* WineModel.swift */,
 				B3C8CF2024A4C87D000FDAD7 /* Map */,
 				B3C8CF3624A5FA04000FDAD7 /* Study */,
 				B3C8CF4024A5FF93000FDAD7 /* Action */,
@@ -167,6 +172,7 @@
 				B3C8CF2E24A4E079000FDAD7 /* Ex+MapViewController.swift */,
 				B3C8CF5D24A62017000FDAD7 /* Ex+MainTabBarController.swift */,
 				B3C8CF5F24A62932000FDAD7 /* Ex+TableOfShopsViewController.swift */,
+				B3DFF0F024A9F60F00F6936C /* Ex+UIImageView.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -408,6 +414,7 @@
 			files = (
 				B3C8CF5A24A6177B000FDAD7 /* TableOfShopsViewController.swift in Sources */,
 				B3C8CEFF24A4C0D1000FDAD7 /* AppDelegate.swift in Sources */,
+				B3DFF0EF24A9F1D400F6936C /* WineModel.swift in Sources */,
 				B3C8CF4424A5FFCD000FDAD7 /* ActionViewController.swift in Sources */,
 				B3C8CF2224A4C9CA000FDAD7 /* MapCoordinator.swift in Sources */,
 				B3C8CF2F24A4E079000FDAD7 /* Ex+MapViewController.swift in Sources */,
@@ -432,6 +439,7 @@
 				B3C8CF3E24A5FE7F000FDAD7 /* ProfileCoordinator.swift in Sources */,
 				B3C8CF6024A62932000FDAD7 /* Ex+TableOfShopsViewController.swift in Sources */,
 				B3C8CF2924A4CF4A000FDAD7 /* CellarViewController.swift in Sources */,
+				B3DFF0F124A9F60F00F6936C /* Ex+UIImageView.swift in Sources */,
 				B3C8CF4D24A60169000FDAD7 /* ShopViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
