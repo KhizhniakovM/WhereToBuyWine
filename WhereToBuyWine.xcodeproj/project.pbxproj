@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7262D30A02841F7972468E69 /* Pods_WhereToBuyWine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4039B87B2654EADB38FC5849 /* Pods_WhereToBuyWine.framework */; };
+		B323AAFE24AB5FB000763D06 /* ProfileCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B323AAFD24AB5FB000763D06 /* ProfileCoordinator.swift */; };
 		B3C8CEFF24A4C0D1000FDAD7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C8CEFE24A4C0D1000FDAD7 /* AppDelegate.swift */; };
 		B3C8CF0824A4C0D3000FDAD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3C8CF0724A4C0D3000FDAD7 /* Assets.xcassets */; };
 		B3C8CF0B24A4C0D3000FDAD7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3C8CF0924A4C0D3000FDAD7 /* LaunchScreen.storyboard */; };
@@ -25,7 +26,6 @@
 		B3C8CF3824A5FA2E000FDAD7 /* StudyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C8CF3724A5FA2E000FDAD7 /* StudyViewModel.swift */; };
 		B3C8CF3A24A5FA4E000FDAD7 /* StudyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C8CF3924A5FA4E000FDAD7 /* StudyViewController.swift */; };
 		B3C8CF3C24A5FE45000FDAD7 /* ActionCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C8CF3B24A5FE45000FDAD7 /* ActionCoordinator.swift */; };
-		B3C8CF3E24A5FE7F000FDAD7 /* ProfileCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C8CF3D24A5FE7F000FDAD7 /* ProfileCoordinator.swift */; };
 		B3C8CF4224A5FFB4000FDAD7 /* ActionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C8CF4124A5FFB4000FDAD7 /* ActionViewModel.swift */; };
 		B3C8CF4424A5FFCD000FDAD7 /* ActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C8CF4324A5FFCD000FDAD7 /* ActionViewController.swift */; };
 		B3C8CF4624A5FFDD000FDAD7 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C8CF4524A5FFDD000FDAD7 /* ProfileViewModel.swift */; };
@@ -45,6 +45,7 @@
 /* Begin PBXFileReference section */
 		4039B87B2654EADB38FC5849 /* Pods_WhereToBuyWine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WhereToBuyWine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C7AF08F33125697E1683700 /* Pods-WhereToBuyWine.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhereToBuyWine.debug.xcconfig"; path = "Target Support Files/Pods-WhereToBuyWine/Pods-WhereToBuyWine.debug.xcconfig"; sourceTree = "<group>"; };
+		B323AAFD24AB5FB000763D06 /* ProfileCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCoordinator.swift; sourceTree = "<group>"; };
 		B3C8CEFB24A4C0D1000FDAD7 /* WhereToBuyWine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhereToBuyWine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3C8CEFE24A4C0D1000FDAD7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B3C8CF0724A4C0D3000FDAD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -64,7 +65,6 @@
 		B3C8CF3724A5FA2E000FDAD7 /* StudyViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudyViewModel.swift; sourceTree = "<group>"; };
 		B3C8CF3924A5FA4E000FDAD7 /* StudyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyViewController.swift; sourceTree = "<group>"; };
 		B3C8CF3B24A5FE45000FDAD7 /* ActionCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionCoordinator.swift; sourceTree = "<group>"; };
-		B3C8CF3D24A5FE7F000FDAD7 /* ProfileCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCoordinator.swift; sourceTree = SOURCE_ROOT; };
 		B3C8CF4124A5FFB4000FDAD7 /* ActionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionViewModel.swift; sourceTree = "<group>"; };
 		B3C8CF4324A5FFCD000FDAD7 /* ActionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionViewController.swift; sourceTree = "<group>"; };
 		B3C8CF4524A5FFDD000FDAD7 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
@@ -149,7 +149,7 @@
 				B3C8CF3424A5F991000FDAD7 /* StudyCoordinator.swift */,
 				B3C8CF3B24A5FE45000FDAD7 /* ActionCoordinator.swift */,
 				B3C8CF2C24A4CFB2000FDAD7 /* CellarCoordinator.swift */,
-				B3C8CF3D24A5FE7F000FDAD7 /* ProfileCoordinator.swift */,
+				B323AAFD24AB5FB000763D06 /* ProfileCoordinator.swift */,
 			);
 			path = Coordinator;
 			sourceTree = "<group>";
@@ -420,6 +420,7 @@
 				B3C8CF2F24A4E079000FDAD7 /* Ex+MapViewController.swift in Sources */,
 				B3C8CF1624A4C43C000FDAD7 /* MainTabBarController.swift in Sources */,
 				B3C8CF3824A5FA2E000FDAD7 /* StudyViewModel.swift in Sources */,
+				B323AAFE24AB5FB000763D06 /* ProfileCoordinator.swift in Sources */,
 				B3C8CF6224A629C9000FDAD7 /* TableOfShopsCollectionViewCell.swift in Sources */,
 				B3C8CF3A24A5FA4E000FDAD7 /* StudyViewController.swift in Sources */,
 				B3C8CF5C24A61799000FDAD7 /* TableOfShopsViewModel.swift in Sources */,
@@ -436,7 +437,6 @@
 				B3C8CF3C24A5FE45000FDAD7 /* ActionCoordinator.swift in Sources */,
 				B3C8CF1924A4C55C000FDAD7 /* Coordinator.swift in Sources */,
 				B3C8CF1F24A4C874000FDAD7 /* MapViewModel.swift in Sources */,
-				B3C8CF3E24A5FE7F000FDAD7 /* ProfileCoordinator.swift in Sources */,
 				B3C8CF6024A62932000FDAD7 /* Ex+TableOfShopsViewController.swift in Sources */,
 				B3C8CF2924A4CF4A000FDAD7 /* CellarViewController.swift in Sources */,
 				B3DFF0F124A9F60F00F6936C /* Ex+UIImageView.swift in Sources */,
